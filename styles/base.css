@@ -22,7 +22,7 @@ header h1 {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
     padding: 0;
     margin: 1rem 0 0 0;
@@ -45,10 +45,16 @@ nav ul li a:hover {
     background-color: #003f88;
 }
 
+nav a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+
 /* Main content */
 main {
-    max-width: 800px;
-    margin: 2rem auto;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 1rem;
 }
 
