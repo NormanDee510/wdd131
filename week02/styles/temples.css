@@ -41,3 +41,21 @@ figure img {
     max-width: 100%;
 }
 
+footer {
+    background-color: #003366; /* Set footer background color */
+    color: white; /* Set text color to white for contrast */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding for spacing */
+    position: relative; /* Ensure it's positioned correctly on the page */
+    bottom: 0;
+    width: 100%; /* Ensure it spans across the entire width of the page */
+    font-size: 14px; /* Adjust font size */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+footer span {
+    font-weight: bold; /* Make the year and modified date bold */
+}
