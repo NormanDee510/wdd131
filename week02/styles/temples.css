@@ -41,15 +41,21 @@ figure img {
     max-width: 100%;
 }
 
+/* The wrapper for the footer */
+.footer-container {
+    max-width: 1200px; /* Set a max-width for the footer */
+    margin: 0 auto; /* Center it horizontally */
+    padding: 10px; /* Add padding for spacing */
+}
+
+/* Footer styles */
 footer {
-    background-color: #003366; /* Set footer background color */
-    color: white; /* Set text color to white for contrast */
-    text-align: center; /* Center-align the text */
-    padding: 20px; /* Add padding for spacing */
-    position: relative; /* Ensure it's positioned correctly on the page */
-    bottom: 0;
-    width: 100%; /* Ensure it spans across the entire width of the page */
-    font-size: 14px; /* Adjust font size */
+    background-color: #003366; /* Footer background color */
+    color: white; /* Text color */
+    text-align: center; /* Center text inside footer */
+    padding: 20px 0; /* Add padding for spacing */
+    width: 100%; /* Ensure it takes up full width */
+    font-size: 14px; /* Font size */
 }
 
 footer p {
@@ -57,7 +63,7 @@ footer p {
 }
 
 footer span {
-    font-weight: bold; /* Make the year and modified date bold */
+    font-weight: bold; /* Bold text for year and modified date */
 }
 
 /* Make the body a flex container */
