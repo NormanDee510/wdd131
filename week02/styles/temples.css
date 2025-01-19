@@ -73,6 +73,10 @@ body {
     min-height: 100vh; /* Ensure it takes up the full height of the viewport */
 }
 
+/* Wrapper for the main content */
 main {
-    flex: 1; /* Allow the main content to expand and take available space */
+    max-width: 1200px; /* Limit main content width */
+    margin: 0 auto; /* Center it horizontally */
+    padding: 20px; /* Add padding for spacing */
 }
+
