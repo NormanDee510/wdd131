@@ -59,3 +59,14 @@ footer p {
 footer span {
     font-weight: bold; /* Make the year and modified date bold */
 }
+
+/* Make the body a flex container */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure it takes up the full height of the viewport */
+}
+
+main {
+    flex: 1; /* Allow the main content to expand and take available space */
+}
