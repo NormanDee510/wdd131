@@ -1,6 +1,4 @@
-/* temples.css (Mobile First Design) */
 
-/* General Body and Layout */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -36,18 +34,19 @@ nav a {
 }
 
 #hamburger {
-    display: none; /* Hide hamburger button by default */
+    display: block; 
     background-color: transparent;
     border: none;
     color: white;
     font-size: 30px;
     cursor: pointer;
+    margin-left: auto; 
 }
 
 /* Temple Gallery */
 .temple-gallery {
     display: grid;
-    grid-template-columns: 1fr; /* Single column for mobile */
+    grid-template-columns: 1fr; 
     gap: 20px;
     margin: 20px;
 }
@@ -78,4 +77,13 @@ footer p {
 
 footer span {
     font-weight: bold;
+}
+
+
+nav ul.visible {
+    display: block;
+}
+
+nav ul {
+    display: none;
 }
