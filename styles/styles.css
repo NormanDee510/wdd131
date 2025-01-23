@@ -5,6 +5,12 @@
     --gray: #F1F1F1;
 }
 
+header::after {
+    content: "";
+    display: block;
+    clear: both; /* Ensures the header floats properly */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
