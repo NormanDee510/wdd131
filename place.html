@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Place - Country</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <picture>
+            <source srcset="images/reid-naaykens-RGRNQWPqOVw-unsplash.jpg" media="(max-width: 600px)">
+            <source srcset="images/hero-image-large.webp" media="(min-width: 601px)">
+            <img src="images/hero-image-large.webp" alt="Beautiful landscape of the country">
+        </picture>
+        <h1>Welcome to My Place</h1>
+    </section>
+
+    <section class="weather">
+        <h2>Weather</h2>
+        <div id="weather-icon"></div>
+        <p>Temperature: <span id="temperature">32°C</span></p>
+        <p>Wind Speed: <span id="wind-speed">15 km/h</span></p>
+        <p>Windchill: <span id="windchill">N/A</span></p>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> | Last modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
