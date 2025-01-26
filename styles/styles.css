@@ -44,7 +44,7 @@ header nav ul li a {
 .hero {
     position: relative;
     text-align: center;
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .hero img {
