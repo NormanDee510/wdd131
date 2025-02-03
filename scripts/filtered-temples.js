@@ -69,6 +69,20 @@ const temples = [
         dedicated: "1983, December, 2",
         area: 116642,
         imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/adelaide-australia-temple/adelaide-australia-temple-4359-main.jpg"
+    },
+    {
+        templeName: "Atlanta Georgia Temple",
+        location: ", USA",
+        dedicated: "1983, June, 4",
+        area: 116642,
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/atlanta-georgia-temple/atlanta-georgia-temple-3860.jpg"
+    },
+    {
+        templeName: "Bangkok Thailand Temple",
+        location: ", Thailand",
+        dedicated: "2023, October, 22",
+        area: 116642,
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/bangkok-thailand-temple/bangkok-thailand-temple-40037.jpg"
     }
 ];
 
