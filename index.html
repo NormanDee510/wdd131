@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -50,5 +50,69 @@
         <p id="lastModified"></p>
     </footer>  
 
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Green Trails Hiking Club to explore breathtaking trails, connect with fellow hikers, and enjoy nature safely.">
+    <meta name="keywords" content="hiking, trails, outdoor, adventure, nature, hiking club">
+    <meta name="author" content="Newman Demba">
+    <title>Green Trails Hiking Club</title>
+    <link rel="stylesheet" href="../styles/siteplan.css">
+</head>
+<body>
+    <header>
+        <h1>Green Trails Hiking Club</h1>
+        <p>Explore Nature's Beauty</p>
+    </header>
+
+    <nav>
+        <button data-filter="all">All Trails</button>
+        <button data-filter="easy">Easy</button>
+        <button data-filter="moderate">Moderate</button>
+        <button data-filter="hard">Hard</button>
+    </nav>
+
+    <div class="trail-container" id="trailContainer"></div>
+
+    <div id="trailModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDifficulty"></p>
+            <p id="modalLength"></p>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+    <!-- Membership Form -->
+    <section class="membership-form">
+        <h2>Join Our Club</h2>
+        <form id="membershipForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="experience">Hiking Experience:</label>
+            <select id="experience">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <button type="submit">Join Now</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2025 Green Trails Hiking Club | <a class="footer__link" href="references.html">References</a></p>
+    </footer>
+
+    <script src="../scripts/siteplan.js"></script>
 </body>
 </html>
